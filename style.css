@@ -1,0 +1,164 @@
+body {
+    background: #fdeca0;
+    color: dimgray;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #f8d000;
+    padding: 55px;
+    border-radius: 12px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product input {
+    width: 350px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #fabc02;
+    outline: none;
+    font-size: 1.2rem;
+    background: #fabc02;
+    color: dimgray;
+}
+
+.product button {
+    width: 50px;
+    border-radius: 12px;
+    border: 1px solid #fabc02;
+    outline: none;
+    background: #fabc02;
+    color: dimgray;
+}
+
+.product button:hover {
+    background-color: #ffa71a;
+    cursor: pointer;
+}
+
+#listProduct {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#listProduct li {
+    padding: 20px;
+    background: #fabc02;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    height: 55px;
+}
+
+.btnAction {
+    border-radius: 50%;
+    border: 1px solid #fabc02;
+    width: 38px;
+    height: 38px;
+    margin-right: 8px;
+    cursor: pointer;
+    background: #f8d000;
+    color: dimgray;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.btnAction:hover {
+    background-color: #fdeca0;
+}
+
+#windowEdit {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #f8d000;
+    padding: 55px;
+    border-radius: 12px;
+}
+
+.editProduct {
+    display: flex;
+    justify-content: space-between;
+}
+
+.editProduct input {
+    width: 450px;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #fabc02;
+    outline: none;
+    font-size: 1.2rem;
+    background: #fabc02;
+    color: dimgray;
+}
+
+.editProduct button {
+    width: 450px;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #fabc02;
+    outline: none;
+    font-size: 1.2rem;
+    background: #fabc02;
+    color: dimgray;
+}
+
+.editProduct button:hover {
+    background-color: #ffa71a;
+    cursor: pointer;
+}
+
+.textProduct {
+    display: flex;
+    margin-top: -25px;
+}
+
+.responsible {
+    position: absolute;
+    justify-content: space-between;
+    margin-top: -50px; 
+}
+
+.btnRemove {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #fabc02;
+    width: 38px;
+    height: 38px;
+    margin-right: 8px;
+    cursor: pointer;
+    background: #f8d000;
+    color: dimgray;
+    outline: none;
+    margin-bottom: 20px;
+    margin-top: -80px;
+    margin-left: -15px;
+}
+
+.btnRemove:hover {
+    background-color: #fdeca0;
+}
+
+#name {
+    margin-left: 22px;
+}
+#email {
+    margin-left: 22px;
+}
